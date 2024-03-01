@@ -26,9 +26,9 @@ uint64_t nPrime(uint64_t n) {
     uint64_t number;
     while (count != n) {
         bool res =  checkPrime(i);
-        if (res == true) {
+        if (res) {
             count++;
-            number=i;
+            number = i;
             i++;
         } else {
             i++;
